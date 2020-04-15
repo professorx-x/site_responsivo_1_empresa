@@ -1,0 +1,516 @@
+html, body
+{
+	width: 100%;
+	height: auto;
+	margin-top: 0px;
+	margin-left: 0px;
+	overflow-x: hidden;
+	font-family: Roboto;
+	scroll-behavior: smooth;
+}
+
+body h1
+{
+	text-align: center;
+	font-size: 40px;
+}
+
+#cabeca
+{
+	width: 100%;
+	height: 80px;
+	top: 0px;
+	padding-top: 20px;
+	padding-left: 20px;
+	position: fixed;
+	z-index: 40;
+	background-color: rgba(0, 0, 0, 0);
+	transition: 1s all;
+}
+
+#cabeca h2
+{
+	display: inline;
+	float: left;
+	color: white;
+}
+
+header
+{
+	width: 100%;
+	height: 80px;
+	top: 0px;
+	padding-top: 20px;
+	padding-left: 20px;
+	/*
+	position: fixed;
+	z-index: 10;
+	*/
+	background-color: rgba(0, 0, 0, 0.9);
+	transition: 1s all;	
+}
+
+header h2
+{
+	display: inline;
+	float: left;
+	color: white;
+}
+
+#logo
+{
+	height: 80%;
+}
+
+#contatos
+{
+	transition: all 0.5s;
+}
+
+.deslizar
+{
+	transition: all 0.5s;
+}
+
+
+#link_head, #link_head2
+{
+	width: 700px;
+	height: 50px;
+	background-color: transparent;
+	display: inline;
+	float: right;
+	transition: all 0.5s;
+}
+
+#link_head2
+{
+	width: 650px;
+}	
+
+#link_head h3, #link_head2 h3
+{
+	display: inline;
+	float: left;
+	margin-left: 50px;
+	color: white;
+	cursor: pointer;
+	transition: 0.8s all;
+}
+
+#link_head h3:hover, #link_head2 h3:hover
+{
+	text-decoration: underline;
+}
+
+#bot_menu
+{
+	width: 50px;
+	display: none;
+	float: right;
+	margin-right: 50px;
+	transition: 0.8s all;
+}	
+
+#sub_link_head
+{
+	display: none;
+	position: fixed;
+	z-index: 15;
+	top: 50px;
+	right: 10px;
+	width: auto;
+	height: auto;
+	padding: 25px;
+	border-radius: 15px;
+	background-color: rgba(0, 0, 0, 0.7);
+	opacity: 0;
+	transition: 0.8s all;
+}
+
+#sub_link_head h3
+{
+	color: white;
+	cursor: pointer;
+}
+
+#sub_link_head a	
+{
+	text-decoration: none;
+}
+
+
+#sub_link_head h3:hover
+{
+	text-decoration: underline;
+}
+
+#ima_back
+{
+	width: 100%;
+	height: 600px;
+	background-size: cover;
+	transition: all 0.5s;
+}
+
+#cober_dark
+{
+	width: 100%; 
+	height: 100%; 
+	background-color: rgba(0, 0, 0, 0.3);
+	z-index: 30;
+	position: relative;
+	margin-top: -25px;
+}	
+
+#cober_dark h3
+{
+	text-align: left;
+	color: white;
+	padding-top: 200px;
+	margin-left: 50px;
+}
+
+#box_muda_slide
+{
+	margin-left: 25%; 
+	width: 50%; 
+	height: 150px; 
+	background-color: transparent; 
+	padding-top: 150px;  
+	z-index: 30; 
+	position: absolute;
+}	
+
+.muda_slide
+{
+	margin-left: 5%; 
+	width: 27%; 
+	height: 15px; 
+	background-color: white; 
+	border-radius: 15px; 
+	display: inline; 
+	float: left; 
+	position: relative;
+	transition: all 0.5s;
+}	
+
+.muda_slide:hover
+{
+	background-color: yellow; 
+	height: 20px; 
+}	
+
+#corre_ima
+{
+	 height: auto; 
+	 overflow: hidden; 
+	 width: 310%;
+	 transition: 0.25s margin-left;
+	 z-index: 20;
+	 position: relative;
+
+}
+
+#ima_sli_1, #ima_sli_2, #ima_sli_3
+{
+	display: inline;
+	float: left;
+	background-size: cover;
+}
+
+.bloco_1, .bloco_2
+{
+	display: inline;
+	float: left;
+	width: 50%;
+	height: auto;
+	overflow: hidden;
+	background-color: transparent;
+	position: relative;
+}
+
+.bloco_2
+{
+	float: right;
+}
+
+.bloco_2 iframe
+{
+	margin-left: 5%;
+	width: 90%;
+	height: 450px;
+	margin-top: 25px;
+}
+
+#quem_somos, #servico, #contato, section, #local_videos
+{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: transparent;
+	position: relative;
+}
+
+#local_videos iframe 
+{
+	width: 32%;
+	/*
+	height: auto;
+	*/
+	height: 250px;
+	margin-top: 25px;
+	margin-left: 1%;
+	display: inline; 
+	float: left;
+}
+
+#quem_somos p, #servico_sec p
+{
+	margin-left: 5%;
+	width: 90%;
+	height: auto;
+	text-align: justify;
+	font-weight: 600;
+	font-size: 20px;
+	position: relative;
+}
+
+#servico_sec p
+{
+	margin-left: 0%;
+	width: 100%;
+}	
+
+.bloco_faz
+{
+	margin-left: 1.5%;
+	width: 31%;
+	margin-bottom: 100px;
+	/*
+	margin-left: 5%;
+	width: 42.5%;
+	
+	width: 26.7%;
+	*/
+	height: auto;
+	overflow: hidden;
+	background-color: transparent;
+	display: inline;
+	float: left;
+	box-shadow: -5px 5px 50px black;
+}
+
+.bloco_faz a
+{
+	text-decoration: none;
+	font-weight: 900;
+	color: #182322;
+	transition: 0.8s all;
+}
+
+.bloco_faz a:hover
+{
+	color: #77a29f;
+}
+
+.bloco_faz img, #servico_sec img, .ima_bloco_faz
+{
+	margin-left: 5%;
+	width: 90%;
+	margin-top: 25px;
+	border-radius: 15px;
+}
+
+.ima_bloco_faz
+{
+	height: 30%;
+	background-color: yellow;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+#servico_sec img
+{
+	margin-left: 15%;
+	width: 70%;
+	margin-top: 25px;
+	border-radius: 15px;
+}
+
+.bloco_faz h3
+{
+	text-align: center;
+}
+
+.info_servicos, #conte_contato p
+{
+	padding: 10px;
+	text-align: justify;
+	font-weight: 600;
+	font-size: 20px;
+}
+
+#conte_contato p
+{
+	text-align: center;
+}
+
+.inpu_texto
+{
+	margin-left: 15%;
+	width: 70%;
+	height: 40px;
+	border-radius: 15px;
+	margin-top: 25px;
+	padding-left: 25px;
+	font-size: 17px;
+}
+
+#conte_contato
+{
+	margin-left: 10%; 
+	width: 80%; 
+	height: auto; 
+	overflow: hidden; 
+	padding-top: 25px; 
+	padding-bottom: 25px; 
+	background-color: #dbebec; 
+	border-radius: 15px;
+	box-shadow: -5px 5px 50px black;
+}	
+
+footer
+{
+	width: 100%;
+	height: auto; 
+	overflow: hidden;
+	background-color: gray;
+	position: relative;
+	padding-bottom: 25px;
+}
+
+#bloc_foot_super
+{
+	width: 100%; 
+	height: auto; 
+	overflow: hidden;
+}
+
+#bloco_1_inter
+{
+	margin-left: 20%; 
+	width: 60%; 
+	text-align: left; 
+	font-size: 20px; 
+	margin-top: 25px; 
+	color: white;	
+}
+
+#loca_icon
+{
+	width: 100%; 
+	height: auto; 
+	overflow: hidden; 
+	background-color: transparent;
+}
+
+.icon_social
+{
+	margin-left: 10px;
+	width: 60px; 
+	display: inline; 
+	float: left;
+}	
+
+#ima_bloco_1
+{
+	margin-left: 20%;
+	width: 60%;
+	border-radius: 15px;
+}
+
+.bloco_rodape
+{
+	margin-top: 25px; 
+	margin-left: 25px;
+	width: 300px;
+	height: auto; 
+	overflow: hidden;
+	background-color: rgba(255, 255, 255, 0.2); 
+	display: inline; 
+	float: left;
+	text-align: center;
+}
+
+#propa_console
+{
+	width: 100%; 
+	background-color: white; 
+	color: black; 
+	text-align: center;
+	transition: 0.8s all;
+	text-decoration: none;
+}
+
+#propa_console:hover
+{
+	background-color: black; 
+	color: white; 
+}	
+
+@media screen and (max-width: 950px)
+{
+	.bloco_1, .bloco_2
+	{
+		display: block;
+		float: left;
+		margin-left: 5%;
+		width: 90%;
+	}	
+
+	.bloco_faz
+	{
+		margin-left: 5%;
+		width: 90%;
+		display: block;
+	}
+
+	
+	#link_head, #link_head2
+	{
+		display: none;
+	}
+
+	/*
+	#link_head2
+	{
+		width: 650px;
+	}	
+
+	#link_head h3, #link_head2 h3
+	{
+		display: inline;
+		float: left;
+		margin-left: 50px;
+		color: white;
+		cursor: pointer;
+		transition: 0.8s all;
+	}
+
+	#link_head h3:hover, #link_head2 h3:hover
+	{
+		text-decoration: underline;
+	}
+	*/
+
+	#bot_menu
+	{
+		display: inline;
+	}	
+
+
+}
